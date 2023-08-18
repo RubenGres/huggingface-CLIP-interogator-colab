@@ -1,2 +1,13 @@
-# huggingface-CLIP-interogator-colab
-CLIP image labeling notebook from an HuggingFace dataset 
+# Hugging Face CLIP Interrogator
+
+derived from [pharmapsychotic clip-interrogator](https://github.com/pharmapsychotic/clip-interrogator)'s 
+This notebook provides an user-friendly way to label images using OpenAI's CLIP model on an Hugging Face dataset.
+
+What is CLIP?
+CLIP means "Contrastive Language–Image Pre-training." It's a modern model from OpenAI that connects visual data and natural language, making it great for understanding images with text.
+
+Which CLIP Model to Choose?
+Pick the CLIP model based on your "Stable Diffusion" version:
+
+- For **Stable Diffusion version 1.X**: It's recommended to go with the **ViT-L** (Vision Transformer - Large) version of CLIP.
+- For **Stable Diffusion version 2.0** and beyond: The **ViT-H** (Vision Transformer - Huge) for best results.
